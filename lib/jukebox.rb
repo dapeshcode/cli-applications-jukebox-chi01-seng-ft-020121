@@ -51,7 +51,6 @@ def run(array)
     exit_jukebox 
     break
   else 
-    while user_input != "exit"
     case user_input 
       when "help"
         help
