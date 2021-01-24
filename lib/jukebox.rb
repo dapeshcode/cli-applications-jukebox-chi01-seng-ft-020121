@@ -58,8 +58,7 @@ when "list"
 when "play"
   play(array)
   run(array)
-end 
-if user_input == "exit"
+when "exit"
   exit_jukebox
   break
 end 
