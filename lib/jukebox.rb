@@ -47,18 +47,18 @@ end
 def run(array)
 puts "Please enter a command:"
 user_input = gets.strip
-until user_input != "exit"
+while user_input != "exit"
 case user_input 
 when "help"
   help
-  run(array)
 when "list" 
   list(array)
-  run(array)
 when "play"
   play(array)
-  run(array)
-when "exit"
+end 
+run(array) 
+end 
+if user_input == "exit"
   exit_jukebox
   break
 end 
