@@ -53,6 +53,7 @@ when "help"
   help 
 when "list" 
   list(array)
+  run(array)
 when "play"
   play(array)
 when "exit"
