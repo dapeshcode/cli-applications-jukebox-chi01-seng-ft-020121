@@ -50,18 +50,18 @@ def run(array)
   if user_input == "exit"
     exit_jukebox 
     break
-  else 
-    case user_input 
-      when "help"
-        help
-      when "list" 
-        list(array)
-      when "play"
-        play(array)
-    end 
-    run(array) 
   end 
-end 
+  until user input == "exit"
+  case user_input
+    when "help"
+      help
+    when "list"
+      list(array)
+    when "play"
+      play(array)
+    end 
+  
+    
 
 
 
