@@ -47,7 +47,7 @@ end
 def run(array)
 puts "Please enter a command:"
 user_input = gets.strip
-while user_input != "exit"
+until user_input != "exit"
 case user_input 
 when "help"
   help
