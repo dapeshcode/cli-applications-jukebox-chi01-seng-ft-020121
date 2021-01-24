@@ -60,6 +60,8 @@ def run(array)
     when "play"
       play(array)
     end 
+  end 
+end 
   
     
 
