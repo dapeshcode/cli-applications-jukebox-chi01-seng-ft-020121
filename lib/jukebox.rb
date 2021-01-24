@@ -50,12 +50,14 @@ user_input = gets.strip
 until user_input == "exit"
 case user_input 
 when "help"
-  help 
+  help
+  run(array)
 when "list" 
   list(array)
   run(array)
 when "play"
   play(array)
+  run(array)
 when "exit"
   exit_jukebox
   break
