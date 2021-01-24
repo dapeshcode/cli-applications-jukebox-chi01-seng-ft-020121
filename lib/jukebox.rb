@@ -58,6 +58,7 @@ when "play"
   play(array)
 when "exit"
   exit_jukebox
+  break
 end 
 end 
 end 
